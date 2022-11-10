@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1668092284 source:c:\users\msi\desktop\obb\function.c
+	"function.h"
+	<string.h>
+	<stdio.h>
+
+1668090802 c:\users\msi\desktop\obb\function.h
+
+1668092292 source:c:\users\msi\desktop\obb\main.c
+	<stdio.h>
+	<string.h>
+	"function.h"
+
