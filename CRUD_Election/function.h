@@ -1,25 +1,30 @@
-#ifndef FONCTION_H_INCLUDED
-#define FONCTION_H_INCLUDED
-
+#ifndef FUNCTION_H_INCLUDED
+#define FUNCTION_H_INCLUDED
 typedef struct
 {
     int jour;
     int mois;
     int annee;
-}Dateelection;
+} Date;
+typedef struct
+{
+    int idm;
+    int nbrhabitants;
+    int nbrconseiller;
+    char nom [50];
+} municipalite ;
 typedef struct
 {
 int id;
-int nbrhabitants;
-int nbrconseiller;
-int municipalite;
-Dateelection date;
-}election;
+municipalite m;
+Date d;
+} election;
 int ajouterelection( char * filename , election e );
 int modifierelection(int id, election nouv, char * filename);
 int supprimerelection(int id, char * filename);
 election chercherelection( char * filename,int id);
 
 
-#endif // FONCTION_H_INCLUDED
+
+#endif // FUNCTION_H_INCLUDED
 
