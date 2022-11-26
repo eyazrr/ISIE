@@ -1,8 +1,0 @@
-1 droite 17 1 2000
- 10 nom0 prenom0 profession0 21
- 11 nom1 prenom1 profession1 21
- 12 nom2 prenom2 profession2 21
-3 droite 29 1 1996
- 30 nom20 prenom20 profession20 61
- 31 nom21 prenom21 profession21 21
- 32 nom22 prenom22 profession22 21
